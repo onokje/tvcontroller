@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "TV Controller for raspberry pi. Sends serial commands to rs232 module",
   "main": "tvcontroller.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/onokje/tvcontroller.git"
@@ -20,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/onokje/tvcontroller/issues"
   },
-  "homepage": "https://github.com/onokje/tvcontroller#readme"
+  "homepage": "https://github.com/onokje/tvcontroller#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "serialport": "^4.0.7"
+  }
 }
